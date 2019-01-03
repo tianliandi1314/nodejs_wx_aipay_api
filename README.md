@@ -14,6 +14,8 @@ nodeJS版个人支付免签系统 Api 版本，丰富的代码注释和Api文档
 
 文档地址： http://dev.yio.me/api/a/index.html 
 
+客户端地址： http://pay.yio.me/#/goods/74ct1zBzZBW8YGFBKe-Yf 
+
 ## 初始化
 
     1. 首先你需要在服务器中安装 nodeJS mysql 环境；
