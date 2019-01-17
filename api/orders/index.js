@@ -34,7 +34,7 @@ router.post('/api/order', async (ctx, next) => {
         pay_format ? pay_format : "json";
         pay_type ? pay_type : "wechat";
 
-        if(order_id && order_price && sign) {
+        if(!(order_id && order_price && sign)) {
             throw('参数不完整!');
         } else if (parseFloat(order_price) <= 0) {
             throw('金额不能小于等于0!')
