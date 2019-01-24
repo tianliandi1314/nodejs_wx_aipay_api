@@ -64,12 +64,6 @@ class ClientController extends Controller {
       // 处理过期订单
       await ctx.service.order.update();
       // 验证信息
-      const rule = {
-        sign: { type: 'string' },
-        price_float: { type: 'int', max: 999999, min: 0.01 },
-        type: { type: 'string' },
-      };
-      ctx.validate(rule, { sign, price_float, type });
       if (sign !== md5(md5(price + type) + secretkey)) throw '处理订单失败，客户端密匙有误!';
       // 处理订单逻辑 TODO //
       const result = await ctx.service.order.save_order(price, type);
