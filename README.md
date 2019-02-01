@@ -3,6 +3,12 @@
   技术栈 eggJs + mysql + Vue
 
   项目说明： 解决个人网站收款，见视频教程 https://pan.baidu.com/s/1czuBjaTIT2hwC215yQ-FlQ
+
+  支付Demo地址: http://pay.yio.me/#/goods/DwnNGCW4VLk1CjemIiUqf
+
+  客户端地址： http://pay.yio.me/#/goods/74ct1zBzZBW8YGFBKe-Yf
+
+注:安卓客户端不提供源代码，仅提供App安装文件;
   
 ### 最后一次更新 2019-01-19 19:51:15
 
