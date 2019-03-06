@@ -24,15 +24,15 @@
 
   1. 安装 node.js mysql 环境，并将此项目所有文件下载到服务器任意目录上面；
 
-  2. 进入项目根目录,找到 config/config.default.js 文件按照提示修改所需配置， 进入database/config.js 文件修改 development 数据量连接信息；
+  2. 进入项目根目录,找到 config/config.default.js 文件按照提示修改所需配置， 进入database/config.js 文件修改 development 数据库配置信息；
 
-  3. 在根目录中打开命令行， 执行 npm i 安装依赖文件；
+  3. 在根目录中打开命令行， 执行 npm install 安装依赖文件；
 
-  4. 在根目录中打开命令行， 执行 npx sequelize db:migrate  创建数据表结构, 注： 是npx 不是 npm；
+  4. 在根目录中打开命令行， 执行 npx sequelize db:migrate  创建数据表结构； 注： 是npx 不是 npm；
 
-  5. 在根目录中打开命令行， 执行 npm start 启动应用,默认端口7001，npm stop 停止应用;
+  5. 在根目录中打开命令行， 执行 npm start 启动应用,默认端口7001； 注： npm stop 停止应用;
 
-  6. 访问 http://你的服务器地址:端口号/index.html 
+  6. 访问 http://你的服务器地址:端口号/index.html 注：必须带index.html
 
 
 ## Api文档
