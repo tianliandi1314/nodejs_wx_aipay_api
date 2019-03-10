@@ -172,10 +172,6 @@ class OrderController extends Controller {
     const orderData = await ctx.model.Orders.findOne({
       where: {
         id,
-        pay_status: '未支付',
-        created_at: {
-          [Op.gt]: +new Date() - parseInt(orderValidity) * 60 * 1000,
-        },
       },
     });
 
