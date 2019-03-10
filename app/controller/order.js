@@ -188,7 +188,7 @@ class OrderController extends Controller {
     });
     try {
       // 通知服务器
-      const { order_id, qr_price: price, extension, redirect_url } = orderData;
+      const { order_id, qr_price, price, extension, redirect_url } = orderData;
       // sign md5(md5(order_id) + secretkey)
       const sign = md5(md5(order_id) + secretkey);
       const url = redirect_url + '?order_id=' + order_id + '&qr_price=' + price + '&extension=' + extension + '&sign=' + sign;
