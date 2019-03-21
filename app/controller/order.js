@@ -66,7 +66,7 @@ class OrderController extends Controller {
    * @apiParam  {String} sign 签名->加密方法 md5(md5(order_id + order_price) + secretkey)
    * @apiParam  {String} redirect_url 支付成功服务器回调地址包含 http(s)://，当订单已支付会向这个url地址推送”一次“Get请求！包含三个参数order_id 、qr_price（实际支付金额） 、extension  和 sign加密方式为 md5(md5(order_id) + secretkey)
    * @apiParam  {String} extension 创建订单时后端传入的扩展信息，支付成功后原样返回
-   * 
+   *
    */
   async create_order() {
     const { ctx, config: { secretkey, payMax, domain, alipayUserId } } = this;
@@ -117,15 +117,10 @@ class OrderController extends Controller {
           newPrice = filterNewPrice(newPrice);
           // 根据可以使用的金额查询收款二维码
           const alipay_url = await ctx.service.qrdecode.find_pay_url(newPrice, order_type);
-          const wxIndexArr = []; // 所有可使用的二维码数组
           if (alipay_url.length === 0) { // 没有可用收款二维码
             throw '系统火爆，请过1-3分钟后下单!';
-          } else {
-            QrCodeResult.forEach(item => {
-              wxIndexArr.push(item.dataValues.qr_price);
-            });
           }
-          const index = Math.floor((Math.random() * wxIndexArr.length));
+          const index = Math.floor((Math.random() * (newPrice.length-1)));
           ctx.body = await ctx.service.order.createOrder(alipay_url[index].dataValues.qr_url, alipay_url[index].dataValues.qr_price);
         }
       } else if (order_type === 'alipay') {
