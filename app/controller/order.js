@@ -124,7 +124,7 @@ class OrderController extends Controller {
           ctx.body = await ctx.service.order.createOrder(alipay_url[index].dataValues.qr_url, alipay_url[index].dataValues.qr_price);
         }
       } else if (order_type === 'alipay') {
-        const alipays = 'alipays://platformapi/startapp?appId=20000067&url=';
+        const alipays = 'alipays://platformapi/startapp?appId=20000691&url='; // 2019年04月07日 原appid 20000067 替换成 20000691 
         const url = domain + '/alipay.html?u=' + alipayUserId + '&a=';
         let tempPrice = order_price;
         if (orderPriceStatus.length === 0) {
