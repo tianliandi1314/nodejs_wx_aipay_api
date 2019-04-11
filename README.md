@@ -3,6 +3,8 @@
   技术栈 eggJs + mysql + Vue
 
   项目说明： 解决个人网站微信支付宝收款；
+  
+   ### demo演示是基于普通版 https://github.com/yioMe/node_wx_alipay_personalPay 项目，支付宝必须上传二维码，不支持h5唤醒！API版无需上传支 付宝二维码，支持h5唤醒支付 https://github.com/yioMe/nodejs_wx_aipay_api api版没有演示地址，请自行搭建或观看视频教程！
 
   支付Demo地址: http://pay.yio.me/#/goods/DwnNGCW4VLk1CjemIiUqf
 
