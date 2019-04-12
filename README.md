@@ -8,7 +8,7 @@
   
   此演示是基于普通版 https://github.com/yioMe/node_wx_alipay_personalPay 项目，支付宝必须上传二维码，不支持h5唤醒！
   
-  api版没有演示地址，请自行搭建或观看视频教程，支付宝无需上传收款二维码，支持h5唤醒支付，无需用户手动输入金额！
+  api版没有演示地址，请自行搭建或观看视频教程和视频演示，支付宝无需上传收款二维码，支持h5唤醒支付，无需用户手动输入金额！
 
   支付Demo地址: http://pay.yio.me/#/goods/DwnNGCW4VLk1CjemIiUqf
 
@@ -38,11 +38,11 @@
 
   2. 进入项目根目录,找到 config/config.default.js 文件按照提示修改所需配置， 进入database/config.js 文件修改 development 数据库配置信息；
 
-  3. 在根目录中打开命令行， 执行 npm install 安装依赖文件；
+  3. 在项目根目录中打开命令行， 执行 npm install 安装依赖文件；
 
-  4. 在根目录中打开命令行， 执行 npx sequelize db:migrate  创建数据表结构； 注： 是npx 不是 npm；
+  4. 在项目根目录中打开命令行， 执行 npx sequelize db:migrate  创建数据表结构； 注： 是npx 不是 npm；
 
-  5. 在根目录中打开命令行， 执行 npm start 启动应用,默认端口7001； 注： npm stop 停止应用;
+  5. 在项目根目录中打开命令行， 执行 npm start 启动应用,默认端口7001； 注： npm stop 停止应用;
 
   6. 访问 http://你的服务器地址:端口号/index.html 注：必须带index.html
 
