@@ -1,24 +1,23 @@
-
 {
-  "development": { // 不清楚这三种数据库的意思全部填写一致即可
-    "username": "root", // 数据库用户名
-    "password": "123456", // 数据库密码
-    "database": "database_test", // 数据库名称
-    "host": "127.0.0.1", // 数据库地址
-    "dialect": "mysql" // 数据库类型
+  "development": {
+    "username": "root",
+    "password": "123456",
+    "database": "database_test",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
   },
   "test": {
-    "username": "root", // 数据库用户名
-    "password": "123456", // 数据库密码
-    "database": "database_test", // 数据库名称
-    "host": "127.0.0.1", // 数据库地址 
-    "dialect": "mysql" // 数据库类型
+    "username": "root",
+    "password": "123456",
+    "database": "database_test",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
   },
   "production": {
-    "username": "root", // 数据库用户名
-    "password": "123456", // 数据库密码 
-    "database": "database_production", // 数据库名称
-    "host": "127.0.0.1", // 数据库地址 
-    "dialect": "mysql" // 数据库类型
+    "username": "root",
+    "password": "123456",
+    "database": "database_production",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
   }
 }
