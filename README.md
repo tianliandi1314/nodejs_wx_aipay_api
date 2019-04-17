@@ -51,6 +51,8 @@
 
   下载本项目后，进入DocApi目录，使用浏览器打开index.html文件即可;
 
+  在线文档 http://dev.yio.me/api/#api-order-______
+  
   你只需要关注 ↓
 
   order - 创建支付订单
