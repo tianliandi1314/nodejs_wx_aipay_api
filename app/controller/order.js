@@ -63,9 +63,9 @@ class OrderController extends Controller {
    * @apiParam  {String} order_type 支付方式 wechat（微信） alipay（支付宝） 默认 wechat
    * @apiParam  {String} order_price 订单金额 保留两位小数
    * @apiParam  {String} order_name 订单名称/商品名称
-   * @apiParam  {String} sign 签名->加密方法 md5(md5(order_id + order_price) + secretkey)
+   * @apiParam  {String} sign 签名->加密方法 md5(md5(order_id + order_price) + secretkey) // 这里的 + 是字符串拼接
    * @apiParam  {String} redirect_url 支付成功服务器回调地址包含 http(s)://，当订单已支付会向这个url地址推送”一次“Get请求！包含三个参数order_id 、qr_price（实际支付金额） 、extension  和 sign加密方式为 md5(md5(order_id) + secretkey)
-   * @apiParam  {String} extension 创建订单时后端传入的扩展信息，支付成功后原样返回
+   * @apiParam  {String} extension 创建订单时后端传入的扩展信息，支付成功后原样返回，中文需要url编码后传入
    *
    */
   async create_order() {

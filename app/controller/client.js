@@ -17,8 +17,8 @@ class ClientController extends Controller {
    * @apiVersion  1.0.1
    * @ApiDescription 验证客户端配置是否正确
    *
-   * @apiParam  {String} apiurl 客户端传来的Api地址 格式=> http(s)://服务器地址/addons/pay/ (注意：后面需要"/"结尾)
-   * @apiParam  {String} sign 签名密匙，config.js里面的 secretkey 值
+   * @apiParam  {String} apiurl 客户端传来的Api地址 格式=> http(s)://服务器地址/addons/pay/ (注意：后面需要"/"结尾，无需带上api/setting)
+   * @apiParam  {String} sign 签名密匙，加密方式 md5(md5(apiurl) + secretkey));
    *
    *
   */
@@ -41,13 +41,13 @@ class ClientController extends Controller {
 
   /**
    *
-   * @api { get } /addons/pay/api/notif 接收推送客户端信息
+   * @api { get } /addons/pay/api/notify 接收推送客户端信息
    * @apiName 接收收款信息
    * @apiGroup android
    * @apiVersion  1.0.1
    * @apiDescription 接收安卓推送过来的收款信息，并处理订单状态
    *
-   * @apiParam  {String} sign 客户端推送过来的签名 加密方式为 md5(md5(price + type) + secretkey) // 收款金额，收款方式(wechat/alipay)，密匙
+   * @apiParam  {String} sign 客户端推送过来的签名 加密方式为 md5(md5(price + type) + secretkey) // 收款金额，收款方式(wechat/alipay)，密匙 注意此处的 + 是字符串拼接
    * @apiParam  {String} type 客户端推送过来的收款方式 wechat/alipay （微信/支付宝）
    * @apiParam  {String} price 客户端推送过来的真实收款金额
    *
