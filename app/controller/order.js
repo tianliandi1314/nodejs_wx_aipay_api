@@ -32,6 +32,9 @@ class OrderController extends Controller {
         where,
         offset: (page - 1) * 10,
         limit: 10,
+        order: [
+          ['id', 'DESC'],
+        ],
       });
       // 已支付订单金额
       const numPriceWere = where;
