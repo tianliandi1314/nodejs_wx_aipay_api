@@ -1,9 +1,9 @@
 {
   "development": {
-    "username": "这里填写数据库账号",
-    "password": "这里填写数据库密码",
-    "database": "这里填写数据库名",
-    "host": "这里填写数据库地址，下面的 test 和 production 不清楚什么作用的修改成和 development 一样的配置即可",
+    "username": "root",
+    "password": "123456",
+    "database": "database",
+    "host": "127.0.0.1",
     "dialect": "mysql"
   },
   "test": {

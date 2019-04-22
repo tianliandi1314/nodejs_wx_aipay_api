@@ -27,11 +27,11 @@ module.exports = appInfo => {
   // 修改 mysql信息
   config.sequelize = {
     dialect: 'mysql', // 数据库类型，不要修改
-    host: '127.0.0.1',
+    host: '127.0.0.1', // 数据库地址
     port: 3306,
-    username: 'root',
-    password: 'root',
-    database: 'egg',
+    username: 'root', // 数据库账号
+    password: 'root', // 数据库密码
+    database: 'egg', // 数据库名
     timezone: '+08:00',
   };
   // 百度orc 申请地址 http://ai.baidu.com/tech/ocr 务必修改
