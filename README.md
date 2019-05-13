@@ -12,7 +12,7 @@
 
   支付Demo地址: http://pay.yio.me/#/goods/DwnNGCW4VLk1CjemIiUqf
 
-  客户端地址(监听app)： http://pay.yio.me/#/goods/74ct1zBzZBW8YGFBKe-Yf 注：无需root权限非xposed框架；
+  客户端赞助地址： http://pay.yio.me/#/goods/74ct1zBzZBW8YGFBKe-Yf 注：无需root权限非xposed框架；
 
   注:安卓客户端不提供源代码，仅提供App安装文件;
   
