@@ -65,7 +65,7 @@
   
  ## 客户端配置
 
-  api 地址填写： http(s)://你的服务器地址/addons/pay/ 注意：必须以反斜杠结尾
+  api 地址填写： http(s)://你的服务器地址:端口号/addons/pay/ 注意：必须以反斜杠结尾
 
   签名密匙填写： config/config.default.js 里的 secretkey 值
 
