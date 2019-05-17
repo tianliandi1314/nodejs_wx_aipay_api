@@ -11,8 +11,12 @@
   api版没有演示地址，请自行搭建或观看视频教程和视频演示，支付宝无需上传收款二维码，支持h5唤醒支付，无需用户手动输入金额！
 
   支付Demo地址: http://pay.yio.me/#/goods/DwnNGCW4VLk1CjemIiUqf
+  
+  ### 客户端赞助地址
+  
+  没有客户端无法回调通知，无法回调通知，无法回调通知，其他功能不影响，可以测试，可以学习，为了能持续更新，客户端需要购买后使用；
 
-  客户端赞助地址： http://pay.yio.me/#/goods/74ct1zBzZBW8YGFBKe-Yf 注：无需root权限非xposed框架；
+  客户端赞助地址： http://pay.yio.me/#/goods/74ct1zBzZBW8YGFBKe-Yf 无需root权限非xposed框架；
 
   注:安卓客户端不提供源代码，仅提供App安装文件;
   
