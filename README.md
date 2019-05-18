@@ -6,12 +6,14 @@
   
   ## 关于demo演示
   
+  后台Demo地址: http://pay.yio.me 账号密码 admin
+  
+  支付Demo地址: http://pay.yio.me/#/goods/DwnNGCW4VLk1CjemIiUqf  api版后台仅保留订单列表和二维码管理功能，见视频教程;
+  
   此演示是基于普通版 https://github.com/yioMe/node_wx_alipay_personalPay 项目，支付宝必须上传二维码，不支持h5唤醒！
   
   api版没有演示地址，请自行搭建或观看视频教程和视频演示，支付宝无需上传收款二维码，支持h5唤醒支付，无需用户手动输入金额！
 
-  支付Demo地址: http://pay.yio.me/#/goods/DwnNGCW4VLk1CjemIiUqf
-  
   ### 客户端赞助地址
   
   没有客户端无法回调通知，无法回调通知，无法回调通知，其他功能不影响，可以测试，可以学习，为了能持续更新，客户端需要购买后使用；
