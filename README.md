@@ -6,35 +6,35 @@
   
   ## 关于demo演示
   
-  后台Demo地址: http://pay.yio.me 账号密码 admin
+  此演示是基于普通版 https://github.com/yioMe/node_wx_alipay_personalPay 支付宝必须上传二维码；
   
-  支付Demo地址: http://pay.yio.me/#/goods/DwnNGCW4VLk1CjemIiUqf  api版后台仅保留订单列表和二维码管理功能，见视频教程;
+  后台Demo地址: http://pay.yio.me 账号密码 admin，api版后台仅保留订单列表和二维码管理功能;
   
-  此演示是基于普通版 https://github.com/yioMe/node_wx_alipay_personalPay 项目，支付宝必须上传二维码，不支持h5唤醒！
+  支付Demo地址: http://pay.yio.me/#/goods/DwnNGCW4VLk1CjemIiUqf  
   
-  api版没有演示地址，请自行搭建或观看视频教程和视频演示，支付宝无需上传收款二维码，支持h5唤醒支付，无需用户手动输入金额！
+  api版没有演示地址，请自行搭建或观看视频教程和视频演示，支付宝无需上传收款二维码，支持h5/安卓App唤醒支付，无需用户手动输入金额！
 
-  ### 客户端赞助地址
+  ## 客户端赞助地址
   
-  没有客户端无法回调通知，无法回调通知，无法回调通知，其他功能不影响，可以测试，可以学习，为了能持续更新，客户端需要购买后使用；
+  没有客户端无回调通知，其他功能不影响，可以测试，可以学习，为了能持续更新，客户端需要购买后使用；
 
   客户端赞助地址： http://pay.yio.me/#/goods/74ct1zBzZBW8YGFBKe-Yf 无需root权限非xposed框架；
 
   注:安卓客户端不提供源代码，仅提供App安装文件;
   
-  ### 2019年05月15日15:06:11
+  ## 2019年05月15日15:06:11
    
    1.支付宝版本（10.1.62）测试h5、安卓app方式唤醒通过；
    
    2.唤醒演示链接: https://pan.baidu.com/s/1YQRU96GvDRDJhM00wqTYbg 提取码: jt95
 
-  ### 2019年04月07日11:35:36
+  ## 2019年04月07日11:35:36
 
   1. 最新版支付宝(10.1.60)已经支持h5唤醒支付，将支付宝二维码地址使用a标签href属性即可，具体用法可参考视频教程，之前的版本请按照 app/controller/order.js 第127行修改，注：目前可以唤醒的不用理会本次更新;
   
   2. 唤醒演示 https://pan.baidu.com/s/1kQMkfCyTCqb-pQoURE8aSg 
   
-  ### 2019年03月03日08:04:26 更新
+  ## 2019年03月03日08:04:26 更新
 
   1. 解决支付宝二维码生成限制，无需上传支付宝二维码;
 
