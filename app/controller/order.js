@@ -86,7 +86,7 @@ class OrderController extends Controller {
       } else if (!redirect_url) {
         throw 'redirect_url不为空!';
       }
-      if (sign !== md5(md5(order_id + order_price) + secretkey)) {
+      if (sign !== md5(md5(order_id.toString() + order_price.toString()) + secretkey.toString())) {
         throw '签名错误';
       }
       // 处理过期订单
