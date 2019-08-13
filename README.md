@@ -10,9 +10,9 @@
   
   后台Demo地址: http://pay.yio.me 账号密码 admin，api版后台仅保留订单列表和二维码管理功能;
   
-  支付Demo地址: http://pay.yio.me/#/goods/DwnNGCW4VLk1CjemIiUqf  
+  支付Demo地址: http://pay.yio.me/#/goods/DwnNGCW4VLk1CjemIiUqf 
   
-  api版没有演示地址，请自行搭建或观看视频教程和视频演示，支付宝无需上传收款二维码，支持h5/安卓App唤醒支付，无需用户手动输入金额！
+  api版支付宝无需上传收款二维码，支持h5/安卓App唤醒支付，无需用户手动输入金额，api版支付宝唤醒演示地址 http://dev.yio.me/test.html 
 
   ## 客户端赞助地址
   
@@ -21,6 +21,16 @@
   客户端赞助地址： http://pay.yio.me/#/goods/74ct1zBzZBW8YGFBKe-Yf 无需root权限非xposed框架；
   
   提供技术对接、技术解答、系统维护、系统搭建部署（收费），如有动手能力，下面有视频教程和文本教程；
+
+  ## 2019年08月13日19:19:10
+
+  1.更新支付宝唤醒方式，修复安卓h5唤醒几率出现白屏的问题；
+
+  2.增加对iPhone手机支付宝唤醒支付的支持；
+
+  3.老用户只需要将app/public/alipay.html文件使用更新文件覆盖即可；
+
+  4.增加唤醒演示地址 http://dev.yio.me/test.html 
   
   ## 2019年07月30日20:17:19
   
