@@ -12,7 +12,7 @@
   
   支付Demo地址: http://pay.yio.me:3001/#/goods/DwnNGCW4VLk1CjemIiUqf 
   
-  api版支付宝无需上传收款二维码，支持h5/安卓App唤醒支付，无需用户手动输入金额，api版支付宝唤醒演示地址 http://dev.yio.me:3001/test.html 
+  api版支付宝无需上传收款二维码，支持h5/安卓App唤醒支付，无需用户手动输入金额，api版支付宝唤醒演示地址 http://dev.yio.me:2333/test.html 
 
   ## 客户端赞助地址
   
@@ -30,7 +30,7 @@
 
   3.老用户只需要将app/public/alipay.html文件使用更新文件覆盖即可；
 
-  4.增加唤醒演示地址 http://dev.yio.me:3001/test.html 
+  4.增加唤醒演示地址 http://dev.yio.me:2333/test.html 
   
   ## 2019年07月30日20:17:19
   
@@ -85,7 +85,7 @@
 
   下载本项目后，进入DocApi目录，使用浏览器打开index.html文件即可;
 
-  在线文档：[接口文档](http://dev.yio.me:3001/api/#api-order-______ "在线接口文档")
+  在线文档：[接口文档](http://dev.yio.me:2333/api/#api-order-______ "在线接口文档")
 
   你只需要关注 ↓
 
