@@ -8,17 +8,17 @@
   
   此演示是基于普通版 https://github.com/yioMe/node_wx_alipay_personalPay ;
   
-  后台Demo地址: http://pay.yio.me:3001/ 账号密码 admin，api版后台仅保留订单列表和二维码管理功能;
+  后台Demo地址: http://pay.yio.me/ 账号密码 admin，api版后台仅保留订单列表和二维码管理功能;
   
-  支付Demo地址: http://pay.yio.me:3001/#/goods/DwnNGCW4VLk1CjemIiUqf 
+  支付Demo地址: http://pay.yio.me/#/goods/DwnNGCW4VLk1CjemIiUqf 
   
-  api版支付宝无需上传收款二维码，支持h5/安卓App唤醒支付，无需用户手动输入金额，api版支付宝唤醒演示地址 http://dev.yio.me:2333/test.html 
+  api版支付宝无需上传收款二维码，支持h5/安卓App唤醒支付，无需用户手动输入金额，api版支付宝唤醒演示地址 http://dev.yio.me/test.html 
 
   ## 客户端赞助地址
   
   没有客户端无回调通知，其他功能不影响，可以测试，可以学习，为了能持续更新，客户端需要购买后使用；
 
-  客户端赞助地址： http://pay.yio.me:3001/#/goods/74ct1zBzZBW8YGFBKe-Yf 无需root权限非xposed框架；
+  客户端赞助地址： http://pay.yio.me/#/goods/74ct1zBzZBW8YGFBKe-Yf 无需root权限非xposed框架；
   
   提供技术对接、技术解答、系统维护、系统搭建部署（收费），如有动手能力，下面有视频教程和文本教程；
 
@@ -30,7 +30,7 @@
 
   3.老用户只需要将app/public/alipay.html文件使用更新文件覆盖即可；
 
-  4.增加唤醒演示地址 http://dev.yio.me:2333/test.html 
+  4.增加唤醒演示地址 http://dev.yio.me/test.html 
   
   ## 2019年07月30日20:17:19
   
@@ -85,7 +85,7 @@
 
   下载本项目后，进入DocApi目录，使用浏览器打开index.html文件即可;
 
-  在线文档：[接口文档](http://dev.yio.me:2333/api/#api-order-______ "在线接口文档")
+  在线文档：[接口文档](http://dev.yio.me/api/#api-order-______ "在线接口文档")
 
   你只需要关注 ↓
 
@@ -145,5 +145,5 @@
   
   答： 邮件 a@yio.me 
   
-  如需商业版【多用户多设备，不需要随机立减，同一金额可以同时n个人付款，支持支付宝h5唤醒，socket协议支持并发】请访问 http://pays.yio.me:3000 输入手机号，点击获取验证码，验证码是 000000，请勿充值，源码出售。
+  如需商业版【多用户多设备，不需要随机立减，同一金额可以同时n个人付款，支持支付宝h5唤醒，socket协议支持并发】请访问 http://pays.yio.me 输入手机号，点击获取验证码，验证码是 000000，请勿充值，源码出售。
  
