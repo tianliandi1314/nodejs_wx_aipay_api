@@ -30,7 +30,6 @@
 
   3.老用户只需要将app/public/alipay.html文件使用更新文件覆盖即可；
 
-  4.增加唤醒演示地址 http://dev.yio.me/test.html 
   
   ## 2019年07月30日20:17:19
   
