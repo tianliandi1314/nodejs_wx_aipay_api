@@ -9,7 +9,7 @@ module.exports = appInfo => {
   config.secretkey = 'yioMe';
   // 绑定的域名， 务必修改
   config.domain = 'http://10.10.10.65:7001'; // 请指定协议
-  // 支付宝userid pc登录 https://my.alipay.com/portal/i.htm 右键查看网页源代码搜索 userId 得到的值 和支付宝收款用户绑定
+  // 浏览器打开 http://dev.yio.me/alipayId.html 支付宝扫码获取支付宝userid 或者 pc登录支付宝 https://my.alipay.com/portal/i.htm 右键查看网页源代码搜索 userId 得到的值
   config.alipayUserId = '2088012748271675';
   config.payMax = { // 设置随机立减金额，单位为0.01
     wx: 10, // 表示会在订单金额的基础上最多减免 0.01 * 10,减免的金额必须有对应的收款二维码，否则无法下单!
