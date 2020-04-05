@@ -7,9 +7,9 @@ module.exports = appInfo => {
   config.keys = appInfo.name + '_1547540555445_3889';
   // 签名密匙妥善保管，不可泄露，务必修改
   config.secretkey = 'yioMe';
-  // 绑定的域名， 务必修改
+  // 绑定的域名必须是公网可以访问的，务必修改
   config.domain = 'http://10.10.10.65:7001'; // 请指定协议
-  // 浏览器打开 http://dev.yio.me/alipayId.html 支付宝扫码获取支付宝userid 或者 pc登录支付宝 https://my.alipay.com/portal/i.htm 右键查看网页源代码搜索 userId 得到的值
+  // 登录支付宝 https://my.alipay.com/portal/i.htm 右键查看网页源代码搜索 userId 得到的值208开头16位
   config.alipayUserId = '2088012748271675';
   config.payMax = { // 设置随机立减金额，单位为0.01
     wx: 10, // 表示会在订单金额的基础上最多减免 0.01 * 10,减免的金额必须有对应的收款二维码，否则无法下单!
