@@ -10,7 +10,7 @@ module.exports = {
       qr_price: { type: DECIMAL(7, 2), allowNull: false },
       created_at: { type: DATE, allowNull: false },
       updated_at: { type: DATE, allowNull: false },
-      deleted_at: { type: DATE },
+      deleted_at: { type: DATE }
     });
   },
 

@@ -30,8 +30,8 @@ module.exports = appInfo => {
     host: '127.0.0.1', // 数据库地址
     port: 3306,
     username: 'root', // 数据库账号
-    password: 'root', // 数据库密码
-    database: 'egg', // 数据库名
+    password: 'wangdingding1234567890', // 数据库密码
+    database: 'paytest', // 数据库名
     timezone: '+08:00',
   };
   // 百度orc 申请地址 http://ai.baidu.com/tech/ocr 务必修改
@@ -63,3 +63,4 @@ module.exports = appInfo => {
   };
   return config;
 };
+alter user 'root' @ 'localhost' identified with mysql_native_password by 'wangdinding1234567890';

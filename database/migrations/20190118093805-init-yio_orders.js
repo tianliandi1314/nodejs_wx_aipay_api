@@ -16,7 +16,7 @@ module.exports = {
       extension: { type: STRING(255) },
       created_at: { type: DATE, allowNull: false },
       updated_at: { type: DATE, allowNull: false },
-      deleted_at: { type: DATE },
+      deleted_at: { type: DATE }
     });
   },
 
